@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Emily Rodriguez",
+        "image": "https://example.com/emily_rodriguez.jpg",
+        "email": "emily.rodriguez@example.com",
+        "number_of_classes_taken": 4,
+        "classes_taken": [
+            "Drawing",
+            "Printmaking",
+            "Calligraphy"
+        ]
+    },
+    {
+        "name": "David Thompson",
+        "image": "https://example.com/david_thompson.jpg",
+        "email": "david.thompson@example.com",
+        "number_of_classes_taken": 6,
+        "classes_taken": [
+            "Photography",
+            "Woodworking",
+            "Ceramics",
+            "Knitting"
+        ]
+    },
+    {
+        "name": "John Smith",
+        "image": "https://example.com/john_smith.jpg",
+        "email": "john.smith@example.com",
+        "number_of_classes_taken": 5,
+        "classes_taken": [
+            "Pottery",
+            "Watercolor Painting",
+            "Jewelry Making"
+        ]
+    },
+    {
+        "name": "Sarah Johnson",
+        "image": "https://example.com/sarah_johnson.jpg",
+        "email": "sarah.johnson@example.com",
+        "number_of_classes_taken": 3,
+        "classes_taken": [
+            "Sculpture",
+            "Paper Quilling"
+        ]
+    },
+    {
+        "name": "Michael Thompson",
+        "image": "https://example.com/michael_thompson.jpg",
+        "email": "michael.thompson@example.com",
+        "number_of_classes_taken": 2,
+        "classes_taken": [
+            "Oil Painting"
+        ]
+    },
+    {
+        "name": "Sophia Chen",
+        "image": "https://example.com/sophia_chen.jpg",
+        "email": "sophia.chen@example.com",
+        "number_of_classes_taken": 3,
+        "classes_taken": [
+            "Origami",
+            "Quilting",
+            "Beading"
+        ]
+    },
+    {
+        "name": "Ethan Lee",
+        "image": "https://example.com/ethan_lee.jpg",
+        "email": "ethan.lee@example.com",
+        "number_of_classes_taken": 8,
+        "classes_taken": [
+            "Pottery",
+            "Acrylic Painting",
+            "Jewelry Making",
+            "Wood Carving"
+        ]
+    },
+    {
+        "name": "Isabella Wong",
+        "image": "https://example.com/isabella_wong.jpg",
+        "email": "isabella.wong@example.com",
+        "number_of_classes_taken": 6,
+        "classes_taken": [
+            "Watercolor Painting",
+            "Ceramics",
+            "Macrame",
+            "Embroidery"
+        ]
+    },
+    {
+        "name": "Liam Johnson",
+        "image": "https://example.com/liam_johnson.jpg",
+        "email": "liam.johnson@example.com",
+        "number_of_classes_taken": 4,
+        "classes_taken": [
+            "Sculpture",
+            "Glass Fusing",
+            "Bookbinding"
+        ]
+    },
+    {
+        "name": "Ava Wilson",
+        "image": "https://example.com/ava_wilson.jpg",
+        "email": "ava.wilson@example.com",
+        "number_of_classes_taken": 5,
+        "classes_taken": [
+            "Printmaking",
+            "Calligraphy",
+            "Knitting",
+            "Candle Making"
+        ]
+    },
+    {
+        "name": "Noah Garcia",
+        "image": "https://example.com/noah_garcia.jpg",
+        "email": "noah.garcia@example.com",
+        "number_of_classes_taken": 3,
+        "classes_taken": [
+            "Drawing",
+            "Acrylic Painting",
+            "Sculpture"
+        ]
+    },
+    {
+        "name": "Mia Patel",
+        "image": "https://example.com/mia_patel.jpg",
+        "email": "mia.patel@example.com",
+        "number_of_classes_taken": 7,
+        "classes_taken": [
+            "Pottery",
+            "Watercolor Painting",
+            "Macrame",
+            "Embroidery"
+        ]
+    },
+    {
+        "name": "William Thompson",
+        "image": "https://example.com/william_thompson.jpg",
+        "email": "william.thompson@example.com",
+        "number_of_classes_taken": 4,
+        "classes_taken": [
+            "Jewelry Making",
+            "Woodworking",
+            "Mosaic Art"
+        ]
+    }
+]

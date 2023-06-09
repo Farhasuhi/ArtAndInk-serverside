@@ -1,0 +1,107 @@
+[
+    {
+        "class_name": "Watercolor Basics",
+        "image": "image_link_1.jpg",
+        "instructor_name": "Emma Johnson",
+        "available_seats": 10,
+        "price": "$50"
+    },
+    {
+        "class_name": "Pottery Workshop",
+        "image": "image_link_2.jpg",
+        "instructor_name": "David Anderson",
+        "available_seats": 8,
+        "price": "$80"
+    },
+    {
+        "class_name": "Knitting 101",
+        "image": "image_link_3.jpg",
+        "instructor_name": "Sarah Thompson",
+        "available_seats": 12,
+        "price": "$40"
+    },
+    {
+        "class_name": "Calligraphy Masterclass",
+        "image": "image_link_4.jpg",
+        "instructor_name": "Michael Davis",
+        "available_seats": 15,
+        "price": "$60"
+    },
+    {
+        "class_name": "Photography Fundamentals",
+        "image": "image_link_5.jpg",
+        "instructor_name": "Rebecca Miller",
+        "available_seats": 10,
+        "price": "$70"
+    },
+    {
+        "class_name": "Sculpture Workshop",
+        "image": "image_link_6.jpg",
+        "instructor_name": "James Wilson",
+        "available_seats": 15,
+        "price": "$65"
+    },
+    {
+        "class_name": "Jewelry Making",
+        "image": "image_link_7.jpg",
+        "instructor_name": "Sophia Lee",
+        "available_seats": 10,
+        "price": "$55"
+    },
+    {
+        "class_name": "Jewelry Making",
+        "image": "image_link_7.jpg",
+        "instructor_name": "Sophia Lee",
+        "available_seats": 10,
+        "price": "$55"
+    },
+    {
+        "class_name": "Mixed Media Art",
+        "image": "image_link_8.jpg",
+        "instructor_name": "Benjamin Adams",
+        "available_seats": 12,
+        "price": "$75"
+    },
+    {
+        "class_name": "Woodworking Essentials",
+        "image": "image_link_12.jpg",
+        "instructor_name": "Thomas Roberts",
+        "available_seats": 8,
+        "price": "$85"
+    },
+    {
+        "class_name": "Digital Illustration",
+        "image": "image_link_13.jpg",
+        "instructor_name": "Alexandra Parker",
+        "available_seats": 12,
+        "price": "$70"
+    },
+    {
+        "class_name": "Candle Making",
+        "image": "image_link_14.jpg",
+        "instructor_name": "Daniel Thompson",
+        "available_seats": 10,
+        "price": "$45"
+    },
+    {
+        "class_name": "Embroidery Workshop",
+        "image": "image_link_15.jpg",
+        "instructor_name": "Grace Miller",
+        "available_seats": 8,
+        "price": "$55"
+    },
+    {
+        "class_name": "Sewing Fundamentals",
+        "image": "image_link_16.jpg",
+        "instructor_name": "Henry Wilson",
+        "available_seats": 12,
+        "price": "$65"
+    },
+    {
+        "class_name": "Fashion Design Workshop",
+        "image": "image_link_22.jpg",
+        "instructor_name": "David Thompson",
+        "available_seats": 8,
+        "price": "$85"
+    }
+]
