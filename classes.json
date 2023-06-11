@@ -1,107 +1,112 @@
 [
     {
         "class_name": "Watercolor Basics",
-        "image": "image_link_1.jpg",
+        "image": "https://images.unsplash.com/photo-1611149834088-6383033e0633?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
         "instructor_name": "Emma Johnson",
         "available_seats": 10,
-        "price": "$50"
+        "price": 50,
+        "status":"pending"
     },
     {
         "class_name": "Pottery Workshop",
-        "image": "image_link_2.jpg",
+        "image": "https://media.istockphoto.com/id/1126452727/photo/ceramic-workshop.jpg?s=612x612&w=0&k=20&c=a3T1XOyTYgJ4yxLWQsnFuCOUcyFkcVUAL_yJdlBa4HM=",
         "instructor_name": "David Anderson",
         "available_seats": 8,
-        "price": "$80"
+        "price": 80
     },
     {
         "class_name": "Knitting 101",
-        "image": "image_link_3.jpg",
+        "image": "https://cdn.4uc.org/i/images/crn/8900283/cover584570394.jpg",
         "instructor_name": "Sarah Thompson",
         "available_seats": 12,
-        "price": "$40"
+        "price": 40,
+        "status":"pending"
     },
     {
         "class_name": "Calligraphy Masterclass",
-        "image": "image_link_4.jpg",
+        "image": "https://images.unsplash.com/photo-1486303954368-398fea0e72cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FsbGlncmFwaHl8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
         "instructor_name": "Michael Davis",
         "available_seats": 15,
-        "price": "$60"
+        "price": 60
     },
     {
         "class_name": "Photography Fundamentals",
-        "image": "image_link_5.jpg",
+        "image": "https://www.wondriumdaily.com/wp-content/uploads/2018/03/fundament-photo-Image-feature.jpg",
         "instructor_name": "Rebecca Miller",
         "available_seats": 10,
-        "price": "$70"
+        "price": 70,
+        "status":"pending"
     },
     {
         "class_name": "Sculpture Workshop",
-        "image": "image_link_6.jpg",
+        "image": "https://eu4art.eu/wp-content/uploads/2022/04/LMA_JOfoto-3_websize-2-1024x683.jpg",
         "instructor_name": "James Wilson",
         "available_seats": 15,
-        "price": "$65"
+        "price": 65,
+        "status":"pending"
     },
     {
         "class_name": "Jewelry Making",
-        "image": "image_link_7.jpg",
+        "image": "https://media.gettyimages.com/id/1170379567/video/female-hands-making-handmade-jewelry-with-little-balls-and-stones.jpg?s=640x640&k=20&c=2AEeGp22w7luFYq9NevpLcStTv0Y3f94l6ScL1XJ_vk=",
         "instructor_name": "Sophia Lee",
         "available_seats": 10,
-        "price": "$55"
-    },
-    {
-        "class_name": "Jewelry Making",
-        "image": "image_link_7.jpg",
-        "instructor_name": "Sophia Lee",
-        "available_seats": 10,
-        "price": "$55"
+        "price": 55,
+        "status":"pending"
     },
     {
         "class_name": "Mixed Media Art",
-        "image": "image_link_8.jpg",
+        "image": "https://media.istockphoto.com/id/665889220/photo/fine-art-students-painting.jpg?s=612x612&w=is&k=20&c=jI3zXHjcSqIhSvrale2M0_ZR5I76CTOT7OLYoXZTDAM=",
         "instructor_name": "Benjamin Adams",
         "available_seats": 12,
-        "price": "$75"
+        "price": 75,
+        "status":"pending"
     },
     {
         "class_name": "Woodworking Essentials",
-        "image": "image_link_12.jpg",
+        "image": "https://images.unsplash.com/photo-1631396326646-c06a935ff3a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
         "instructor_name": "Thomas Roberts",
         "available_seats": 8,
-        "price": "$85"
+        "price": 85,
+        "status":"pending"
     },
     {
         "class_name": "Digital Illustration",
-        "image": "image_link_13.jpg",
+        "image": "https://images.unsplash.com/photo-1587120894337-d1af5138ad65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=423&q=80",
         "instructor_name": "Alexandra Parker",
         "available_seats": 12,
-        "price": "$70"
+        "price": 70,
+        "status":"pending"
     },
     {
         "class_name": "Candle Making",
-        "image": "image_link_14.jpg",
+        "image": "https://images.unsplash.com/photo-1604249180474-3ebaf8747373?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80",
         "instructor_name": "Daniel Thompson",
         "available_seats": 10,
-        "price": "$45"
+        "price": 45,
+        "status":"pending"
     },
     {
         "class_name": "Embroidery Workshop",
-        "image": "image_link_15.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5WbcfHg0CV9QCFjl3d5fYw6Y5RYDN20C_ww&usqp=CAU",
         "instructor_name": "Grace Miller",
         "available_seats": 8,
-        "price": "$55"
+        "price": 55,
+        "status":"pending"
     },
     {
         "class_name": "Sewing Fundamentals",
-        "image": "image_link_16.jpg",
+        "image": "https://images.unsplash.com/photo-1457972657980-4c9fddebec8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
         "instructor_name": "Henry Wilson",
         "available_seats": 12,
-        "price": "$65"
+        "price": 65,
+        "status":"pending"
     },
     {
         "class_name": "Fashion Design Workshop",
-        "image": "image_link_22.jpg",
+        "image": "https://i0.wp.com/textilelearner.net/wp-content/uploads/2022/10/Fashion-Illustration.jpg?fit=587%2C383&ssl=1",
         "instructor_name": "David Thompson",
         "available_seats": 8,
-        "price": "$85"
+        "price": 85,
+        "status":"pending"
     }
 ]

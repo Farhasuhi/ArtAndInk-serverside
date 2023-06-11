@@ -117,8 +117,18 @@ async function run() {
 
     // All Classes Api
     app.get('/allclasses', async (req, res) => {
-      const result = await classesCollection.find().toArray();
+      let query = {};
+            if (req.query?.email) {
+                query = { email: req.query.email }
+            }
+      const result = await classesCollection.find(query).toArray();
       res.send(result)
+    })
+    // post all classes
+    app.post('/allclasses',async(req,res)=>{
+      const classes= req.body;
+      const result = await classesCollection.insertOne(classes);
+      res.send(result);
     })
 
     // All instructors Api
@@ -176,6 +186,7 @@ async function run() {
       const result = await usersCollection.updateOne(filter, updateDoc);
       res.send(result);
     });
+    // updating setting role in user(As a instructor)
     app.patch('/users/instructor/:id', async (req, res) => {
       const id = req.params.id;
       const filter = { _id: new ObjectId(id) };
@@ -215,13 +226,15 @@ async function run() {
     })
 
 
-
-
     // Get all users in server
     app.get('/allusers',verifyJWT,verifyAdmin, async (req, res) => {
       const result = await usersCollection.find().toArray();
       res.send(result);
     });
+    // app.get('/allusers',async (req, res) => {
+    //   const result = await usersCollection.find().toArray();
+    //   res.send(result);
+    // });
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
