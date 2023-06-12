@@ -60,7 +60,7 @@ async function run() {
         return;
       }
     })
-
+    // database collection
     const classesCollection = client.db('ArtsandInk').collection('classes');
 
     const instructorsCollection = client.db('ArtsandInk').collection('instructors');
