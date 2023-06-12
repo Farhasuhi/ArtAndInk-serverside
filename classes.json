@@ -6,7 +6,9 @@
         "available_seats": 10,
         "price": 50,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"emmajohnson@gmail.com"
+    
     },
     {
         "class_name": "Pottery Workshop",
@@ -14,7 +16,8 @@
         "instructor_name": "David Anderson",
         "available_seats": 8,
         "price": 80,
-        "total_student":0
+        "total_student":0,
+        "email":"davidanderson@gmail.com"
     },
     {
         "class_name": "Knitting 101",
@@ -23,7 +26,8 @@
         "available_seats": 12,
         "price": 40,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"sarahthompson@gmail.com"
     },
     {
         "class_name": "Calligraphy Masterclass",
@@ -31,7 +35,8 @@
         "instructor_name": "Michael Davis",
         "available_seats": 15,
         "price": 60,
-        "total_student":0
+        "total_student":0,
+        "email":"michaeldavis@gmail.com"
     },
     {
         "class_name": "Photography Fundamentals",
@@ -40,7 +45,8 @@
         "available_seats": 10,
         "price": 70,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"rebeccamiller@gmail.com"
     },
     {
         "class_name": "Sculpture Workshop",
@@ -49,7 +55,9 @@
         "available_seats": 15,
         "price": 65,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"jameswilson@gmail.com"
+        
     },
     {
         "class_name": "Jewelry Making",
@@ -58,7 +66,8 @@
         "available_seats": 10,
         "price": 55,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"sophialee@gmail.com"
     },
     {
         "class_name": "Mixed Media Art",
@@ -67,7 +76,8 @@
         "available_seats": 12,
         "price": 75,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"benjaminadams@gmail.com"
     },
     {
         "class_name": "Woodworking Essentials",
@@ -76,7 +86,8 @@
         "available_seats": 8,
         "price": 85,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"thomasroberts@gmail.com"
     },
     {
         "class_name": "Digital Illustration",
@@ -85,7 +96,8 @@
         "available_seats": 12,
         "price": 70,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"alexandraparker@gmail.com"
     },
     {
         "class_name": "Candle Making",
@@ -94,7 +106,9 @@
         "available_seats": 10,
         "price": 45,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"danielthompson@gmail.com"
+
     },
     {
         "class_name": "Embroidery Workshop",
@@ -103,7 +117,8 @@
         "available_seats": 8,
         "price": 55,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"gracemiller@gmail.com"
     },
     {
         "class_name": "Sewing Fundamentals",
@@ -112,7 +127,8 @@
         "available_seats": 12,
         "price": 65,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"henrywilson@gmail.com"
     },
     {
         "class_name": "Fashion Design Workshop",
@@ -121,6 +137,7 @@
         "available_seats": 8,
         "price": 85,
         "status":"pending",
-        "total_student":0
+        "total_student":0,
+        "email":"davidthompson@gmail.com"
     }
 ]

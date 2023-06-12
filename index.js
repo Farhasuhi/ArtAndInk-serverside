@@ -134,14 +134,30 @@ async function run() {
       const updateDoc = {
         $inc: {
           available_seats: -1,
-        },
+        }
       };
       const updatetotal={
         enrolled:1
       }
       const result = await classesCollection.updateOne(filter, updateDoc);
+  
       const totalresult=await studentCollection.insertOne(updatetotal)
       res.send({result,totalresult});
+    })
+
+    app.patch('/allclasses/:id', async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: new ObjectId(id) }
+      const updated= req.body;
+      const updateDoc = {
+        $set: {
+          status: updated.status,
+          feedback:updated?.feedback
+        },
+      };
+      const result = await classesCollection.updateOne(filter, updateDoc)
+      res.send(result)
+
     })
 
     app.get('/total',async(req,res)=>{
@@ -192,18 +208,7 @@ async function run() {
       res.send(result);
 
     })
-    app.put('/selectclasses/:id', async (req, res) => {
-      const id = req.params.id;
-      const filter = { _id: new ObjectId(id) };
-      const updateDoc = {
-        $inc: {
-          available_seats: -1,
-          total_student: +1
-        },
-      };
-      const result = await classesCollection.updateOne(filter, updateDoc);
-      res.send(result);
-    })
+  
 
     app.delete('/selectclasses/:id', async (req, res) => {
       const id = req.params.id;
