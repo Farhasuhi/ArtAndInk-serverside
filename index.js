@@ -144,7 +144,7 @@ async function run() {
       const totalresult=await studentCollection.insertOne(updatetotal)
       res.send({result,totalresult});
     })
-
+    // speicific classes for api
     app.patch('/allclasses/:id', async (req, res) => {
       const id = req.params.id;
       const filter = { _id: new ObjectId(id) }
