@@ -257,7 +257,7 @@ async function run() {
       const result = await usersCollection.updateOne(filter, updateDoc);
       res.send(result);
     });
-
+    // who are admin for route
     app.get('/users/admin/:email', verifyJWT, async (req, res) => {
       const email = req.params.email;
 
@@ -270,7 +270,7 @@ async function run() {
       const result = { admin: user?.role === 'admin' }
       res.send(result);
     })
-
+    // who are instructor
     app.get('/users/instructor/:email', verifyJWT, async (req, res) => {
       const email = req.params.email;
 
