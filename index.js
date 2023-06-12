@@ -71,6 +71,8 @@ async function run() {
 
     const paymentCollection = client.db('ArtsandInk').collection('payment');
 
+    const studentCollection = client.db('ArtsandInk').collection('student');
+
     // jwt
     app.post('/jwt', (req, res) => {
       const user = req.body;
@@ -132,11 +134,19 @@ async function run() {
       const updateDoc = {
         $inc: {
           available_seats: -1,
-          total_student: +1
         },
       };
+      const updatetotal={
+        enrolled:1
+      }
       const result = await classesCollection.updateOne(filter, updateDoc);
-      res.send(result);
+      const totalresult=await studentCollection.insertOne(updatetotal)
+      res.send({result,totalresult});
+    })
+
+    app.get('/total',async(req,res)=>{
+      const result=await studentCollection.find().toArray()
+      res.send(result)
     })
 
     // post all classes
@@ -195,7 +205,7 @@ async function run() {
       res.send(result);
     })
 
-    app.put('/selectclasses/:id', async (req, res) => {
+    app.delete('/selectclasses/:id', async (req, res) => {
       const id = req.params.id;
       const filter = { _id: new ObjectId(id) };
       const result=await selectClassCollection.deleteOne(filter)
@@ -321,6 +331,14 @@ async function run() {
       const query = { _id: new ObjectId(classId) }
       const deleteResult = await selectClassCollection.deleteOne(query);
       res.send({ insertResult, deleteResult });
+    })
+    app.get('/payments',verifyJWT,async(req,res)=>{
+      let query = {};
+      if (req.query?.email) {
+        query = { email: req.query.email }
+      }
+      const result=await paymentCollection.find(query).toArray()
+      res.send(result)
     })
 
     // Send a ping to confirm a successful connection

@@ -5,14 +5,16 @@
         "instructor_name": "Emma Johnson",
         "available_seats": 10,
         "price": 50,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Pottery Workshop",
         "image": "https://media.istockphoto.com/id/1126452727/photo/ceramic-workshop.jpg?s=612x612&w=0&k=20&c=a3T1XOyTYgJ4yxLWQsnFuCOUcyFkcVUAL_yJdlBa4HM=",
         "instructor_name": "David Anderson",
         "available_seats": 8,
-        "price": 80
+        "price": 80,
+        "total_student":0
     },
     {
         "class_name": "Knitting 101",
@@ -20,14 +22,16 @@
         "instructor_name": "Sarah Thompson",
         "available_seats": 12,
         "price": 40,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Calligraphy Masterclass",
         "image": "https://images.unsplash.com/photo-1486303954368-398fea0e72cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FsbGlncmFwaHl8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
         "instructor_name": "Michael Davis",
         "available_seats": 15,
-        "price": 60
+        "price": 60,
+        "total_student":0
     },
     {
         "class_name": "Photography Fundamentals",
@@ -35,7 +39,8 @@
         "instructor_name": "Rebecca Miller",
         "available_seats": 10,
         "price": 70,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Sculpture Workshop",
@@ -43,7 +48,8 @@
         "instructor_name": "James Wilson",
         "available_seats": 15,
         "price": 65,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Jewelry Making",
@@ -51,7 +57,8 @@
         "instructor_name": "Sophia Lee",
         "available_seats": 10,
         "price": 55,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Mixed Media Art",
@@ -59,7 +66,8 @@
         "instructor_name": "Benjamin Adams",
         "available_seats": 12,
         "price": 75,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Woodworking Essentials",
@@ -67,7 +75,8 @@
         "instructor_name": "Thomas Roberts",
         "available_seats": 8,
         "price": 85,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Digital Illustration",
@@ -75,7 +84,8 @@
         "instructor_name": "Alexandra Parker",
         "available_seats": 12,
         "price": 70,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Candle Making",
@@ -83,7 +93,8 @@
         "instructor_name": "Daniel Thompson",
         "available_seats": 10,
         "price": 45,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Embroidery Workshop",
@@ -91,7 +102,8 @@
         "instructor_name": "Grace Miller",
         "available_seats": 8,
         "price": 55,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Sewing Fundamentals",
@@ -99,7 +111,8 @@
         "instructor_name": "Henry Wilson",
         "available_seats": 12,
         "price": 65,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     },
     {
         "class_name": "Fashion Design Workshop",
@@ -107,6 +120,7 @@
         "instructor_name": "David Thompson",
         "available_seats": 8,
         "price": 85,
-        "status":"pending"
+        "status":"pending",
+        "total_student":0
     }
 ]
