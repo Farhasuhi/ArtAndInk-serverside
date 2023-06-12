@@ -127,7 +127,7 @@ async function run() {
       const result = await classesCollection.findOne(filter);
       res.send(result);
     })
-
+    // specifiq class update api
     app.put('/allclasses/:id', async (req, res) => {
       const id = req.params.id;
       const filter = { _id: new ObjectId(id) };
